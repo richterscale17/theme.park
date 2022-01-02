@@ -6,13 +6,12 @@
 // YOU MUST ESCAPE ANY SINGLE BACKSLASHES LIKE SO: \\
 
 let custom_text_header = `
-<div class="custom-text-header"> <pre>   
-<center>
+<div class="custom-text-header"> <pre> <p style="text-align:center;">  
     ____  ____  ____  ______      ________  ______  ______\n  
    / __ )/ __ \\/ __ \\/ ____/     / ____/ / / / __ )/ ____/\n
   / __  / / / / /_/ / / ________/ /   / / / / __  / __/   \n
  / /_/ / /_/ / _, _/ /_/ /_____/ /___/ /_/ / /_/ / /___   \n
 /_____/\\____/_/ |_|\\____/      \\____/\\____/_____/_____/   \n   
-                                                               </center> </pre> </div>
+                                                                 </p> </pre> </div>
 `;
 document.getElementById("login").innerHTML += custom_text_header
